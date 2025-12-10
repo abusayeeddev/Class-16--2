@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
+    line-height: 0.8;
+}
+
+/* benner part start  */
+.prev{
+    font: 20px;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 20px;
+    background: turquoise;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+.next{
+    font-size: 20px;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 20px;
+    background: turquoise;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    
+}
+.slick-dots button{
+    display: none;
+    position: absolute;
+    bottom: 20px;
+}
+.slick-active.slick-dots li{
+    background: #131313;
+}
+.slick-dots li{
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    background: teal;
+    border-radius: 40px;
+    margin: 0 5px;
+}
+/* benner part end  */
